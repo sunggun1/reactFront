@@ -31,7 +31,7 @@ nvm install 16.16.0<br>
 nvm use 16.16.0<br>
 (npm install --location=global serve)<br>
 (npm install -g )<br>
-npm install
+npm install<br>
 npm run build<br>
 pm2 serve build 3000 --spa<br>
 npm watch 설정: https://stackoverflow.com/questions/42772860/how-to-make-create-react-app-auto-build<br>
