@@ -15,6 +15,8 @@ MYSQL RDS 설정 방법<br>
 https://velog.io/@dohaeng0/AWS%EC%97%90-Spring-Boot-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%B0%B0%ED%8F%AC-1-RDS-MySQL-%EC%84%B8%ED%8C%85<br>
 <br>
 백엔드 ec2 무중단 구성 (https://suyeoniii.tistory.com/52)<br>
+chmod +x gradlew <br>
+./gradlew clean build<br>
 nohup java -jar build/libs/demo-0.0.1-SNAPSHOT.jar & > /dev/null<br>
 <br>
 프론트 무중단 구성 ( https://velog.io/@pp2lycee/pm2%EC%99%80-serve%EB%A1%9C-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%95%98%EA%B8%B0)<br>
