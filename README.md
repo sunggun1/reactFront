@@ -15,7 +15,7 @@ MYSQL RDS 설정 방법<br>
 https://velog.io/@dohaeng0/AWS%EC%97%90-Spring-Boot-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%B0%B0%ED%8F%AC-1-RDS-MySQL-%EC%84%B8%ED%8C%85<br>
 <br>
 백엔드 ec2 무중단 구성 (https://suyeoniii.tistory.com/52)<br>
-java open jdk 11 설치
+java open jdk 11 설치<br>
 ec2-user - https://www.geeksforgeeks.org/how-to-install-java-jdk11-on-aws-ec2/<br>
 ubuntu - https://velog.io/@skyepodium/ubuntu-open-JDK-11-%EC%84%A4%EC%B9%98<br>
 chmod +x gradlew <br>
