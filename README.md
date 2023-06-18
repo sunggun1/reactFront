@@ -19,6 +19,12 @@ nohup java -jar build/libs/demo-0.0.1-SNAPSHOT.jar & > /dev/null<br>
 <br>
 프론트 무중단 구성 ( https://velog.io/@pp2lycee/pm2%EC%99%80-serve%EB%A1%9C-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%95%98%EA%B8%B0)<br>
 nvm 설치 방법 : https://stackoverflow.com/questions/16904658/node-version-manager-install-nvm-command-not-found <br>
+touch ~/.bash_profile<br>
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash<br>
+source ~/.nvm/nvm.sh<br>
+nvm install 16.16.0<br>
+nvm use 16.16.0<br>
+npm install --location=global serve<br>
 npm run build<br>
 pm2 serve build 3000 --spa<br>
 <br>
