@@ -4,6 +4,7 @@ backend : spring datajpa, jpa, lombok, spring security, jwt token<br>
 frontend : react <br>
 server : ec2, rds<br>
 sql : mysql, h2
+route 53 사용(Spring boot 책 참고)
 <hr>
 
 서버 주소들<br>
