@@ -32,6 +32,21 @@ nvm use 16.16.0<br>
 npm install -g <br>
 npm run build<br>
 pm2 serve build 3000 --spa<br>
+npm watch 설정: https://stackoverflow.com/questions/42772860/how-to-make-create-react-app-auto-build<br>
+
+npm i --save-dev npm-watch<br>
+<code>
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": "src/"
+  }
+</code>
 <br>
 nginx 설정 (https://tobegood.tistory.com/entry/Nginx%EB%A1%9C-React%EB%A5%BC-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0-%EC%9A%B0%EB%B6%84%ED%88%AC-%ED%99%98%EA%B2%BD)<br>
 
