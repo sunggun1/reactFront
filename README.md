@@ -8,7 +8,7 @@ sql : mysql, h2
 
 서버 주소들<br>
 aws backend elastic ip : http://13.124.30.40:8080<br>
-aws frontend elastic ip : http://3.39.145.245:3000<br>
+aws frontend elastic ip : http://13.124.30.40:3000<br>
 <hr>
 
 MYSQL RDS 설정 방법<br>
@@ -38,9 +38,9 @@ GET / : http://13.124.30.40:8080/ (헬스체크 용도)<br>
 
 프론트엔드<br>
 전체 URL<br>
-로그인 GET /login    : http://3.39.145.245:3000/login<br>
-회원가입 GET /signup : http://3.39.145.245:3000/signup<br>
-메모페이지 GET /     : http://3.39.145.245:3000/ (유저 로그인 안되어 있는 경우에는 회원로그인 안됨)<br>
+로그인 GET /login    : http://13.124.30.40:3000/login<br>
+회원가입 GET /signup : http://13.124.30.40:3000/signup<br>
+메모페이지 GET /     : http://13.124.30.40:3000/ (유저 로그인 안되어 있는 경우에는 회원로그인 안됨)<br>
 
 <hr>
 <br>
