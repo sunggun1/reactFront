@@ -5,19 +5,20 @@ import {Link} from "react-router-dom";
 
 
 function SignUp(){
-
     const handleSubmit = (event) =>{
         event.preventDefault();
-
-        const data = new FormData(event.tagert);
+        const data = new FormData(event.target);
         const username = data.get("username");
         const password = data.get("password");
+        
         signup({username : username, password : password}).then(
             (response) =>{
-                window.location.href= "/login";
+                // window.location.href= "/login";
+            },(error) =>{
+                console.log(error);
             }
         );
-    };
+    }
 
     return (
         <Container component="main" maxWidth="xs" style={{ marginTop:"8%"}}>
@@ -53,12 +54,7 @@ function SignUp(){
                         />
                     </Grid>
                     <Grid item xs={12}>
-                        <Button
-                            type="submit"
-                            fullWidth
-                            variant="contained"
-                            color ="primary"
-                        >
+                        <Button type="submit" fullWidth variant="contained" color="primary">
                             계정 생성
                         </Button>
                     </Grid>

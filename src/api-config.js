@@ -3,7 +3,7 @@ let backendHost;
 const hostname = window && window.location && window.location.hostname;
 
 if(hostname === "localhost"){
-    backendHost = "http://13.124.30.40:8080";
+    backendHost = "http://localhost:8080";
 }else{
     backendHost = "http://13.124.30.40:8080";
 }
