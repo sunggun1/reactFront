@@ -55,9 +55,9 @@ nginx 설정 (https://tobegood.tistory.com/entry/Nginx%EB%A1%9C-React%EB%A5%BC-%
 
 백엔드 <br>
 전체 URL<br>
-GET / : http://13.124.30.40:8080/ (헬스체크 용도)<br>
-회원가입 POST auth/signup : http://13.124.30.40:8080/auth/signup<br>
-로그인(jwt token 사용) POST auth/signin : http://13.124.30.40:8080/auth/signin <br>
+GET / : http://app.memoproject1.com:8080/ (헬스체크 용도)<br>
+회원가입 POST auth/signup : http://app.memoproject1.com:8080/auth/signup<br>
+로그인(jwt token 사용) POST auth/signin : http://app.memoproject1.com:8080/auth/signin <br>
 메모 저장 <br>
 메모 삭제 <br>
 메모 가져오기 <br>
@@ -65,15 +65,15 @@ GET / : http://13.124.30.40:8080/ (헬스체크 용도)<br>
 
 프론트엔드<br>
 전체 URL<br>
-로그인 GET /login    : http://13.124.30.40:3000/login<br>
-회원가입 GET /signup : http://13.124.30.40:3000/signup<br>
-메모페이지 GET /     : http://13.124.30.40:3000/ (유저 로그인 안되어 있는 경우에는 회원로그인 안됨)<br>
+로그인 GET /login    : http://app.memoproject1.com:3000/login<br>
+회원가입 GET /signup : http://app.memoproject1.com:3000/signup<br>
+메모페이지 GET /     : http://app.memoproject1.com:3000/ (유저 로그인 안되어 있는 경우에는 회원로그인 안됨)<br>
 
 <hr>
 <br>
 <br>
 백엔드 헬스체크 URL <br>
-healthCheckPage : http://13.124.30.40:8080/ <br>
+healthCheckPage : http://app.memoproject1.com:8080/ <br>
 
 ![image](https://github.com/sunggun1/springBackend/assets/17981550/503cd878-c24a-4475-b357-72c59f181705)
 
