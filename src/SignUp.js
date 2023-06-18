@@ -13,7 +13,7 @@ function SignUp(){
         
         signup({username : username, password : password}).then(
             (response) =>{
-                // window.location.href= "/login";
+                window.location.href= "/login";
             },(error) =>{
                 console.log(error);
             }
