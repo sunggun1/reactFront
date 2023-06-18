@@ -19,7 +19,7 @@ java open jdk 11 설치
 https://pompitzz.github.io/blog/Java/awsEc2InstallJDK11.html<br>
 chmod +x gradlew <br>
 ./gradlew clean build<br>
-nohup java -jar build/libs/demo-0.0.1-SNAPSHOT.jar & > /dev/null<br>
+nohup java -jar build/libs/demo-0.0.1.jar & > /dev/null<br>
 <br>
 프론트 무중단 구성 ( https://velog.io/@pp2lycee/pm2%EC%99%80-serve%EB%A1%9C-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%95%98%EA%B8%B0)<br>
 nvm 설치 방법 : https://stackoverflow.com/questions/16904658/node-version-manager-install-nvm-command-not-found <br>
