@@ -16,7 +16,7 @@ https://velog.io/@dohaeng0/AWS%EC%97%90-Spring-Boot-%ED%94%84%EB%A1%9C%EC%A0%9D%
 <br>
 백엔드 ec2 무중단 구성 (https://suyeoniii.tistory.com/52)<br>
 java open jdk 11 설치
-ec2-user - https://pompitzz.github.io/blog/Java/awsEc2InstallJDK11.html<br>
+ec2-user - https://www.geeksforgeeks.org/how-to-install-java-jdk11-on-aws-ec2/<br>
 ubuntu - https://velog.io/@skyepodium/ubuntu-open-JDK-11-%EC%84%A4%EC%B9%98<br>
 chmod +x gradlew <br>
 ./gradlew clean build<br>
