@@ -24,7 +24,8 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | b
 source ~/.nvm/nvm.sh<br>
 nvm install 16.16.0<br>
 nvm use 16.16.0<br>
-npm install --location=global serve<br>
+(npm install --location=global serve)<br>
+npm install -g <br>
 npm run build<br>
 pm2 serve build 3000 --spa<br>
 <br>
