@@ -1,10 +1,11 @@
 # springBackend
-스프링, 리액트, aws를 사용한 메모 프로젝트 입니다.<br>
+jwt token과 redis를 이용한 스프링, 리액트, aws를 사용한 메모 프로젝트 입니다.<br>
 backend : spring datajpa, jpa, lombok, spring security, jwt token<br>
 frontend : react <br>
 server : ec2, rds<br>
 sql : mysql, h2
 route 53 사용(Spring boot 책 참고)
+application load balancer, auto scaling에 redis 넣어보기
 <hr>
 
 서버 주소들<br>
